@@ -10,3 +10,22 @@ def hello_world():
 def input_output():
     # TODO: Implement this function
     pass  # Replace with your code
+
+
+#Simple Hello World Program
+
+print('Hello, World!')
+
+#Write a Python program that asks the user to input their name (string), age (integer), and height (float), and then displays them back to the user with an appropriate message.
+
+#Get the individual's name, age and height.
+
+name = str(input('Enter your name '))
+age = int(input('Enter your age '))
+height = float(input('Enter your height '))
+
+#Greet the individual and display their name, age and height
+
+print(f'Hello,{name}')
+print(f'You are {age} years old')
+print(f'Your age {height} meters')
