@@ -3,6 +3,7 @@
 def hello_world():
     # TODO: Implement this function
     pass  # Replace with your code
+print('Hello, World!')
 
 # Function 2: Get input and output with different variable types
 # This function should prompt the user for their name (string), age (int), and height (float),
@@ -10,14 +11,6 @@ def hello_world():
 def input_output():
     # TODO: Implement this function
     pass  # Replace with your code
-
-
-#Simple Hello World Program
-
-print('Hello, World!')
-
-#Write a Python program that asks the user to input their name (string), age (integer), and height (float), and then displays them back to the user with an appropriate message.
-
 #Get the individual's name, age and height.
 
 name = str(input('Enter your name: '))
